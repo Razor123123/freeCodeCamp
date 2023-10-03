@@ -21,7 +21,7 @@ export default class HTML extends React.Component {
             dangerouslySetInnerHTML={{ __html: this.props.body }}
             id='___gatsby'
             key={'body'}
-          />
+          ></div>
           {this.props.postBodyComponents}
         </body>
       </html>
